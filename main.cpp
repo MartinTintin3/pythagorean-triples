@@ -31,7 +31,6 @@ int main() {
           if (std::find(triples.begin(), triples.end(), t) != triples.end() ||
               GCD(temp_a, temp_b, c) != 1) {
             continue;
-            /* v contains x */
           } else {
             triples.push_back(t);
             std::cout << "a: " << ((a < b) ? a : b)
